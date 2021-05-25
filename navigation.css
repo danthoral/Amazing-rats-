@@ -1,19 +1,24 @@
-ul {
+.navbar {
     list-style-type: none;
-    margin: 0; 
+    margin: 0;
     padding: 0; 
-    width: 200px; 
-    background-color: grey;
-    
-    }
-    li a {
-        display:block;
-        color:#000; 
-        text-decoration: none; 
-        width: 60px;
-    }
- 
-li a  hover {
-    background-color: #555; 
+    overflow: hidden;
+    background-color: #6b5b95; 
+
+
+}
+.navbar li{
+    float: left;
+}
+.navbar li a {
+    display: block;
     color: white; 
-} 
+    text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.navbar li a:hover{
+    background-color:#878f99; 
+}
+.navbar {position: fixed; top: 0; width: 100%;}
+
